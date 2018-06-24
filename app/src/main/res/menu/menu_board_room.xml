@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/action_chat"
+        android:icon="@drawable/ic_chat_item"
+        android:title="Cart"
+        app:actionLayout="@layout/chat_item_layout"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_color"
+        android:icon="@drawable/ic_color_picker"
+        android:title="Cart"
+        app:showAsAction="always"
+        />
+</menu>

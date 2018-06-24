@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">pictionnaro</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_username">Username</string>
+    <string name="action_sign_in">sign in</string>
+    <string name="action_register">create account</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="auth_failed">"wrong email address or password"</string>
+    <string name="register_failed">"register failed, check your connection"</string>
+    <string name="wrong_password_lenght">"your password must be at least 6 characters long"</string>
+    <string name="wrong_informations">"invalid email, username(size > 2) or password(size > 5)"</string>
+    <string name="menu_settings">"settings"</string>
+    <string name="create_game_button_title">create new game</string>
+    <string name="Cancel">cancel</string>
+    <string name="action_new_board">New board</string>
+    <string name="create_new_game">Create new game</string>
+    <string name="tv_game_name">GAME NAME</string>
+    <string name="tv_game_wor">GAME WORD TO FIND</string>
+    <string name="tv_show_game_word">show word to find</string>
+    <string name="tv_bad_game_name">Invalid game name</string>
+    <string name="tv_bad_game_word">Invalid word to find</string>
+    <string name="btn_end_the_game">End the game</string>
+    <string name="tv_end_game">Game is Over!</string>
+    <string name="tv_end_game_back">Back to game list</string>
+    <string name="tv_draw_permission">Everybody can Draw Something!</string>
+    <string name="tv_word_to_find_end_game">The word to find was</string>
+    <string name="tv_game_winner_end_game">Winner is</string>
+    <string name="tv_game_creator">Created by </string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:id="@+id/tv_end_game"
+        android:text="@string/tv_end_game"
+        android:textSize="@dimen/tv_end_game"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:padding="@dimen/tv_end_game"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_word_to_find_end_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/tv_word_to_find_end_game"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/tv_word_to_find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/game_title_size"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_game_winner_end_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/tv_game_winner_end_game"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/tv_game_winner_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="toto"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/game_title_size"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/button_back"
+        android:text="@string/tv_end_game_back"
+        android:textStyle="italic"
+        android:textSize="@dimen/tv_end_game"
+        android:textColor="@color/colorBlack"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        android:layout_height="wrap_content" />
+</LinearLayout>

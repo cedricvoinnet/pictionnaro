@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="90dp"
+    android:background="@color/colorWhite"
+    android:weightSum="1">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.3">
+
+        <TextView
+            android:layout_marginRight="@dimen/list_margin"
+            android:paddingLeft="@dimen/list_padding"
+            android:id="@+id/tv_board_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textSize="@dimen/game_title_size"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/tv_board_creator_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/list_padding"
+            android:paddingRight="@dimen/list_padding"
+            android:paddingBottom="@dimen/list_padding"
+            android:textSize="@dimen/game_creator_title_size"
+            android:text="@string/tv_game_creator"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@+id/tv_board_title"/>
+
+        <TextView
+            android:id="@+id/tv_board_creator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/game_creator_title_size"
+            android:textColor="@color/colorBlack"
+            android:layout_toRightOf="@+id/tv_board_creator_title"
+            android:layout_below="@+id/tv_board_title"/>
+
+        <TextView
+            android:paddingTop="30dp"
+            android:id="@+id/tv_creation_date"
+            android:text="lellelele"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/game_creation_date_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="@dimen/list_padding"
+            android:paddingBottom="@dimen/list_padding"/>
+
+    <!--    <CheckBox
+            android:id="@+id/keepSynced"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Keep in sync" />-->
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/board_thumbnail"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/thumbnail_margin"/>
+    </FrameLayout>
+
+
+
+</LinearLayout>

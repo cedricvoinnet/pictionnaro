@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#484d4f</color>
+    <color name="colorPrimaryDark">#292c2d</color>
+    <color name="colorPrimaryLight">#dddddd</color>
+    <color name="colorAccent">#4dbbc1</color>
+    <color name="colorError">#E02626</color>
+    <color name="colorBackground">#d9dddb</color>
+    <color name="colorTitleGame">#32605a</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+</resources>
