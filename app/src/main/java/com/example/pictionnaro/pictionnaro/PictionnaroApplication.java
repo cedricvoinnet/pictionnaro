@@ -10,7 +10,7 @@ import com.firebase.client.Firebase;
  * app restarts).
  * These must happen before the Firebase client is used.
  */
-public class PicionisApplication extends Application {
+public class PictionnaroApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
